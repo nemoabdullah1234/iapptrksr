@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Stryker copy 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Stryker copy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Stryker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>WareHouseOwner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3C62739B1D0AB1DD00269751</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C6273B21D0AB1DD00269751</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C6273BD1D0AB1DD00269751</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C9CEA781E0D28A60035A038</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C9CEA8E1E0D28A70035A038</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C9CEA991E0D28A80035A038</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C9CEAAA1E0D2C150035A038</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C9CEBC31E0D2DAA0035A038</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

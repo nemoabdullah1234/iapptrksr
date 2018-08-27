@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Dashboard Default View</key>
+	<array>
+		<dict>
+			<key>All</key>
+			<string>0</string>
+			<key>Watch</key>
+			<string>0</string>
+			<key>Alert</key>
+			<string>0</string>
+		</dict>
+	</array>
+	<key>Dashboard Sort By</key>
+	<array>
+		<dict>
+			<key>ETD</key>
+			<string>0</string>
+			<key>Case No</key>
+			<string>0</string>
+			<key>Hospital</key>
+			<string>0</string>
+			<key>Doctor</key>
+			<string>0</string>
+			<key>Surgery Type</key>
+			<string>0</string>
+			<key>Surgery Date</key>
+			<string>0</string>
+		</dict>
+	</array>
+	<key>Dashboard Sorted Order</key>
+	<array>
+		<dict>
+			<key>Ascending</key>
+			<string>0</string>
+			<key>Descending</key>
+			<string>0</string>
+		</dict>
+	</array>
+	<key>Notification</key>
+	<array>
+		<dict>
+			<key>Sound</key>
+			<string>0</string>
+			<key>Vibration</key>
+			<string>0</string>
+			<key>Badge</key>
+			<string>0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

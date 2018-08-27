@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STRAboutViewController" customModule="Stryker" customModuleProvider="target">
+            <connections>
+                <outlet property="lblVersion" destination="2UV-e2-ECQ" id="TDD-2q-mrS"/>
+                <outlet property="myWebView" destination="FfJ-BR-LhU" id="EM7-4i-Akt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-BR-LhU">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                    <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="5Bu-Jg-xru"/>
+                    </connections>
+                </webView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2UV-e2-ECQ">
+                    <rect key="frame" x="20" y="623" width="335" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="t6t-UN-Wz1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FfJ-BR-LhU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6ZS-zC-5L5"/>
+                <constraint firstAttribute="trailing" secondItem="2UV-e2-ECQ" secondAttribute="trailing" constant="20" id="6bT-eI-6kf"/>
+                <constraint firstItem="2UV-e2-ECQ" firstAttribute="top" secondItem="FfJ-BR-LhU" secondAttribute="bottom" id="8F1-8V-W5T"/>
+                <constraint firstItem="FfJ-BR-LhU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HJ9-wU-Ahr"/>
+                <constraint firstAttribute="bottom" secondItem="2UV-e2-ECQ" secondAttribute="bottom" id="TD4-84-lnc"/>
+                <constraint firstAttribute="trailing" secondItem="FfJ-BR-LhU" secondAttribute="trailing" id="cyI-ay-Arl"/>
+                <constraint firstItem="2UV-e2-ECQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="fiV-XW-HVG"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

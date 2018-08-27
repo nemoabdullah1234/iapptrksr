@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STRCaseDetailNewViewController" customModule="Stryker" customModuleProvider="target">
+            <connections>
+                <outlet property="tblCaseDetail" destination="icW-Cz-1wi" id="nd9-xL-t5K"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="cFN-As-Vul" id="o0F-VP-oGj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uiN-Sw-jOA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="UZd-up-QQD" userLabel="height = 100"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="icW-Cz-1wi">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="sectionIndexTrackingBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="AXg-I8-mhm"/>
+                        <outlet property="delegate" destination="-1" id="QC8-kh-9Ib"/>
+                    </connections>
+                </tableView>
+                <webView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cFN-As-Vul">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cFN-As-Vul" secondAttribute="trailing" id="1xk-Ue-BFo"/>
+                <constraint firstAttribute="bottom" secondItem="icW-Cz-1wi" secondAttribute="bottom" id="65v-E0-lax"/>
+                <constraint firstAttribute="trailing" secondItem="icW-Cz-1wi" secondAttribute="trailing" id="JfZ-4K-fPV"/>
+                <constraint firstItem="icW-Cz-1wi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="M9P-3Z-756"/>
+                <constraint firstItem="cFN-As-Vul" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QHe-pY-Y0b"/>
+                <constraint firstAttribute="bottom" secondItem="cFN-As-Vul" secondAttribute="bottom" id="Rfz-Gn-ihq"/>
+                <constraint firstItem="cFN-As-Vul" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Z07-Qr-d0i"/>
+                <constraint firstAttribute="trailing" secondItem="uiN-Sw-jOA" secondAttribute="trailing" id="e81-GW-aq7"/>
+                <constraint firstItem="icW-Cz-1wi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hoX-TK-rha"/>
+                <constraint firstItem="uiN-Sw-jOA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nyL-S8-osB"/>
+                <constraint firstItem="uiN-Sw-jOA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="q1L-aV-BlF"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <point key="canvasLocation" x="155.5" y="403.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CEF6E7C7F0388CE098B905444358EF0D9DBEB27C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8835FFF6484D7E633F1F9E00DF3A91BD515D9762" : 9223372036854775807,
+    "CEF6E7C7F0388CE098B905444358EF0D9DBEB27C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D10D8A6F-48AD-47E7-85D7-D26807778C14",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8835FFF6484D7E633F1F9E00DF3A91BD515D9762" : "traquer_stryker_ios\/commonmodules\/",
+    "CEF6E7C7F0388CE098B905444358EF0D9DBEB27C" : "traquer_stryker_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Stryker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Stryker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/git-codecommit.us-east-1.amazonaws.com\/v1\/repos\/beaconmgt",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8835FFF6484D7E633F1F9E00DF3A91BD515D9762"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/git-codecommit.us-east-1.amazonaws.com\/v1\/repos\/traquer_stryker_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEF6E7C7F0388CE098B905444358EF0D9DBEB27C"
+    }
+  ]
+}

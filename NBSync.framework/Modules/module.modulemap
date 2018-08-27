@@ -1,0 +1,10 @@
+framework module NBSync {
+  umbrella header "NBSync.h"
+
+  export *
+  module * { export * }
+}
+
+module NBSync.Swift {
+    header "NBSync-Swift.h"
+}
